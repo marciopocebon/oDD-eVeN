@@ -68,11 +68,11 @@ def batting2():
         else:
             sum2 += comp1
 
-        if target > sum2:
+        if sum2 > target:
             print("\n Computer wins")
             break
 
-    if sum2 > target:
+    if target > sum2:
         print("\n You win")
 
 
@@ -110,4 +110,6 @@ else:
         target = runs1
         batting2();
 
-#print(" \n In this game you get to play batting first. The rest is just normal odd or even game. \n")
+#print(" \n In this game you get to play batting first. The rest is just normal odd or even gam
+
+
